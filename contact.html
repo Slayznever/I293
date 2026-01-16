@@ -1,30 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title> Contactez-nous</title>
-        <a ><link rel="stylesheet" href="Mon-premier-site.html"></a>
-        <meta charset="ISO-8859-1">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="contact">
-        <style>
-            h1{
-                color: red;
-            }
-        </style>
-</head>
-<body>
-    <h1>💕 CONTACTEZ-NOUS 💕</h1>
-    <form action="">
-        <label for="Nom:">Nom :</label>
-        <input type="text" name="name"><br> <br>
-        <label for="Prénom:">Prénom :</label>
-        <input type="text" name="surname"><br> <br>
-        <label for="Adresse:">Adresse :</label>
-        <input type="text" name="Adress"><br> <br>
-        <label for="Lieu:">Lieu :</label>
-        <input type="text" name="Lieu"><br> <br>
-        <label for="Npa:">Npa :</label>
-        <input type="number" name="Npa"><br> <br>
-    
-    </form>
-</body>
+    <head>
+        <title>
+            Contactez-nous
+        </title>
+            <a ><link rel="stylesheet" href="Mon-premier-site.html"></a>
+            <meta charset="ISO-8859-1">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="description" content="contact">
+            <style>
+                h1{
+                    color: red;
+                }
+            </style>
+    </head>
+    <body>
+        <h1>💕 CONTACTEZ-NOUS 💕</h1>
+        <form action="page-Livraison.html">
+            <label for="Nom:">Nom :</label>
+            <input type="text" name="name"><br> <br>
+            <label for="Prénom:">Prénom :</label>
+            <input type="text" name="surname"><br> <br>
+            <label for="Adresse:">Adresse :</label>
+            <input type="text" name="Adress"><br> <br>
+            <label for="Lieu:">Lieu :</label>
+            <input type="text" name="Lieu"><br> <br>
+            <label for="Npa:">Npa :</label>
+            <input type="number" name="Npa"><br> <br>
+        
+                <fieldset class="box">
+                    <legend shows>Votre commande</legend>
+
+                        <p><strong>élément désiré :</strong></p>
+
+                        <label>
+                        <input type="checkbox" name="élément[]" value="Feu">
+                        Du feu
+                        </label>
+
+                        <label>
+                        <input type="checkbox" name="élément[]" value="Eau">
+                        De l'eau
+                        </label>
+
+                        <label>
+                        <input type="checkbox" name="élément[]" value="Air">
+                        De l'air
+                        </label>
+
+                        <label>
+                        <input type="checkbox" name="élément[]" value="Terre">
+                        De la terre
+                        </label>
+
+                        <label>
+                        <input type="checkbox" name="élément[]" value="Tout">
+                        L'avatar (Les 4 éléments)
+                        </label>
+
+                        <p>
+                        <label for="quantité"><strong>Quantité *</strong></label>
+                        <select id="quantité" name="quantité" required>
+                            <option value="">-- Choisissez --</option>
+                            <option value="1">1 boite</option>
+                            <option value="2">2 boites</option>
+                            <option value="3">3 boites</option>
+                            <option value="457239465">457239465 boites</option>
+                        </select>
+                        </p>
+                    <fieldset class="box">
+                        <legend>Mode de paiement</legend>
+
+                        <label>
+                        <input type="radio" name="paiement" value="livraison" checked>
+                        Paiement à la livraison
+                        </label>
+
+                        <label>
+                        <input type="radio" name="paiement" value="carte">
+                        Carte bancaire
+                        </label>
+
+                        <label>
+                        <input type="radio" name="paiement" value="paypal">
+                        PayPal
+                        </label>
+                        <label>
+                        <input type="radio" name="paiement" value="livraison" checked>
+                        Liquide
+                        </label>
+
+                    </fieldset>
+
+                </fieldset>
+                    <label for="message">Message de retour</label>
+                    <textarea></textarea>
+                    <br>
+                    <label>
+                        <input type="checkbox" name="condition générales[]" value="Yes/No" required>
+                        J'accepte les conditions générales *
+                    </label>
+                    <br>
+                    <label>
+                        <input type="Submit" name="Envoyer" value="Envoyer">
+                        
+                    </label>
+
+        </form>
+
+    </body>
+</html>
