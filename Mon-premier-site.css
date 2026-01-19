@@ -1,5 +1,12 @@
-body {
-    background-color: white;
+.Mon-premier-site
+{
+    background-color: gray;
     
 }
-    
+.terre
+{
+    background-image: image-set("https://th.bing.com/th/id/OIP.rSCmRglX0U63MhG28fshgwHaJl?w=143&h=186&c=7&r=0&o=7&pid=1.7&rm=3");
+    background-repeat: no-repeat;
+    background-size: 60%;
+        
+}  
