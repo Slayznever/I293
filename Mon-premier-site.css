@@ -5,6 +5,7 @@
 }
 body, html {
     height: 100%;
+    
 }
 .terre
 {
@@ -29,4 +30,68 @@ body, html {
     background-image: url("image-eau.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+}
+.éléments
+{
+    display: flex;
+    justify-content: center; 
+}
+.éléments_feu
+{
+    border-radius: 30px;
+    background-color: rgba(145, 22, 6, 0.986);
+    width: 70%;
+    padding: 20px;
+    
+}
+.éléments_air
+{
+    border-radius: 30px;
+    width: 70%;
+    background-color: rgba(46, 218, 248, 0.986);
+    padding: 20px;
+    
+}
+.éléments_eau
+{
+    border-radius: 30px;
+    background-color: rgba(16, 96, 245, 0.986);
+    padding: 20px;
+    width: 70%;
+    
+}
+.éléments_terre
+{
+    border-radius: 30px;
+    background-color: rgba(156, 62, 8, 0.986);
+    width: 70%;
+    padding: 20px;
+}
+.color_feu
+{
+    display: flex;
+    justify-content: center;
+}
+.color_air
+{
+   display: flex;
+    justify-content: center; 
+}
+.color_eau
+{
+   display: flex;
+    justify-content: center; 
+}
+.color_terre
+{
+   display: flex;
+    justify-content: center; 
+}
+.éléments_symb
+{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    
+    
 }
