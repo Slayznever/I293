@@ -1,12 +1,32 @@
 .Mon-premier-site
 {
-    background-color: gray;
+    background-color: whitesmoke;
     
+}
+body, html {
+    height: 100%;
 }
 .terre
 {
-    background-image: image-set("https://th.bing.com/th/id/OIP.rSCmRglX0U63MhG28fshgwHaJl?w=143&h=186&c=7&r=0&o=7&pid=1.7&rm=3");
+    background-image: url("image\ terre.jpg");
     background-repeat: no-repeat;
-    background-size: 60%;
-        
+    background-size: cover;       
 }  
+.feu
+{
+    background-image: url("image\ feu.webp");
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+.air
+{
+    background-image: url("image-air.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+.eau
+{
+    background-image: url("image-eau.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
